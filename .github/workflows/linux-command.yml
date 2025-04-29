@@ -1,7 +1,7 @@
 name: command
 on: [push]
 jobs:
-  command:
+  run_tests:
     name: Use Linux commands
     runs-on: ubuntu-latest
     steps:
